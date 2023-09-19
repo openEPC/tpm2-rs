@@ -1,0 +1,12 @@
+[package]
+authors = ["Iegor <iegor@freedomfi.com>"]
+build = "build.rs"
+name = "tpm2-wolf"
+version = "0.0.1"
+description = "Rust wrapper for tpm2 WolfTPM lib"
+readme = "README.md"
+repository = "https://github.com/openEPC/tpm2-rs"
+license = "Apache-2.0"
+
+[build-dependencies]
+bindgen = "0"
